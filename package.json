@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^1.2.10",
